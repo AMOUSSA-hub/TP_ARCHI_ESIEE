@@ -1,4 +1,5 @@
-%include "asm_io.inc"
+%include "asm_io.inc"   add eax, input1
+    call print_int  
 
 SECTION .data
 prompt1 : db "Entrer un nombre : ", 0
