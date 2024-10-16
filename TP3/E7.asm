@@ -39,14 +39,7 @@ equalZero:
   
 continue_loop: loop test
 
-
-
-    
-
-
-
-
-
+call print_nl
 
     ; Fin de l'execution.
     mov ebx, 0

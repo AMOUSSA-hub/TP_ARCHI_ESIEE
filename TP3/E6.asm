@@ -43,6 +43,6 @@ increment:
     
     ;ARRETER LE PROGRAMME
     call print_nl
-    mov eax, 1            ; Exit code for Linux system call.
-    mov ebx, 0            ; Status code 0.
-    int 0x80              ; Exit the program.
+    mov eax, 1            ; Code de sortie
+    mov ebx, 0            ; code de status
+    int 0x80              ; appel au noyau pour éxécuter l'instruction
