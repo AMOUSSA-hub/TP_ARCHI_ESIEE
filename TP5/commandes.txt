@@ -1,0 +1,4 @@
+cc -Wall -m32 -c -o Test_C_To_asm.o Test_C_To_asm.c
+cc -m32 -no-pie Test_C_To_asm.o longueur.o
+a.out
+ //  si compilation impossible car stdlib manquant: sudo apt-get install gcc-multilib
